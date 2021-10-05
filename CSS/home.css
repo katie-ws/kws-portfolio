@@ -1,0 +1,33 @@
+/* Grid setup */
+.grid {
+    display: grid;
+    grid-template-rows: title about projects skills;
+}
+
+/* Intro banner */
+.banner {
+    grid-row: 1 / 2;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.image {
+    grid-column: 4 / -1;
+    height: 80vh;
+    margin: 0;
+    background: linear-gradient(105deg, white 35%, #fad700 25%);
+}
+
+.title { 
+    grid-column: 1 / span 3;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+.banner h2 { 
+    font-size: 1.67rem;
+}
+  
