@@ -6,7 +6,7 @@
 
 /* Intro banner */
 .banner {
-    grid-row: 1 / 2;
+    grid-row: title;
     padding-top: 5rem;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 
 /* About me section */
 .about {
-    grid-row: 2;
+    grid-row: about;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -51,7 +51,6 @@
 
 .aboutHeading h2 {
     padding-top: 4rem;
-    text-align: center;
 }
 
 .kwsImage {
@@ -72,4 +71,45 @@
     text-align: center;
     grid-area: 5 / 1 / -1 / -1;
     padding: 0 3rem;
+}
+
+/* Projects section */
+.projects {
+    grid-row: projects;
+}
+
+.projectsHeading {
+    background-image: url('../Resources/Section\ Banner.png');
+    background-size: cover;
+    background-repeat: none;
+    height: 20vh;
+    margin-top: 2rem;
+}
+
+.projectsHeading h2 {
+    padding-top: 2.5rem;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio figure {
+    border: 3px solid #85ccd0;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.portfolio img {
+    margin: 1rem;
+}
+
+figcaption {
+    text-align: center;
+}
+
+button {
+    margin-top: 1rem;
 }
