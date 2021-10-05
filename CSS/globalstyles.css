@@ -1,0 +1,95 @@
+/* Reset browser override settings on font/ spacing */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*  KWS Global Styles */
+html, body {
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Spartan', sans-serif, Arial;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3.33rem;
+}
+
+h2 {
+    font-size: 1.94rem;
+}
+
+h3 {
+    font-size: 1.56rem;
+}
+
+/* Navigation Bar */
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    font-weight: bold;
+    height: 5rem;
+  }
+
+header .navigation {
+    display: flex;
+    align-content: center;
+    padding: 0.5rem 2.78rem;
+    list-style: none;
+  }
+
+.logo {
+    flex: 1;
+}
+
+#logo-size {
+    height: 4.5rem;
+    padding-left: 3.4rem;
+    margin: auto 0;
+}
+  
+header nav ul {
+      display: flex;
+      padding-top: 1rem;
+      list-style: none;
+  }
+
+  header li {
+      padding-left: 3.5rem;
+  }
+
+  header a {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #e50460;
+    text-decoration: none;
+  }
+
+  nav a:hover, nav a:active {
+      color: #85ccd0;
+      text-align: right;
+  }
