@@ -18,7 +18,7 @@
     grid-column: 4 / -1;
     height: 80vh;
     margin: 0;
-    background: linear-gradient(105deg, white 35%, #fad700 25%);
+    background: linear-gradient(123deg, white 37%, #fad700 24%);
 }
 
 .title { 
@@ -30,4 +30,45 @@
 .banner h2 { 
     font-size: 1.67rem;
 }
-  
+
+/* About me section */
+.about {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+}
+
+.heading {
+    grid-area: 1 / 1 / 4 / -1;
+    background-image: url('../Resources/Section\ Banner.png');
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.heading h2 {
+    padding-top: 4rem;
+}
+
+.kwsImage {
+    z-index: 2;
+    justify-items: center;
+    grid-area: 2 / 2 / 5 / 2;
+    margin-bottom: 1rem;
+}
+
+.kwsImage img {
+    width: 80%;
+    border: 10px solid #85ccd0;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: center;
+    grid-area: 5 / 1 / -1 / -1;
+    padding: 0 3rem;
+}
