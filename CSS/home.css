@@ -107,13 +107,13 @@
     background-size: cover;
     background-repeat: none;
     height: 20vh;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
 }
 
 .projectsHeading h2 {
-    margin-top: 4vh;
+    padding-top: 4vh;
 }
 
 .portfolio {
@@ -139,3 +139,27 @@ figcaption {
 button {
     margin-top: 1rem;
 }
+
+/* Skills section */
+.skillsHeading {
+    background-image: url('../Resources/Section\ Banner.png');
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
+    height: 20vh;
+    margin-top: 1.5rem;
+}
+
+.skillsHeading h2 {
+    padding-top: 4vh;
+}
+
+.skills h3 {
+    color: #e50460;
+    padding: 3rem;
+}
+
+.skills img {
+    width: 90px;
+}
+
