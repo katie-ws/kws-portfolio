@@ -160,6 +160,10 @@ button {
 }
 
 .skills img {
-    width: 90px;
+    height: 90px;
 }
 
+.currentSkills, .upcomingSkills { 
+    display: flex;
+    justify-content: space-evenly;
+}
