@@ -96,23 +96,35 @@ header .navigation {
 }
   
 header nav ul {
-      display: flex;
-      padding-top: 1rem;
-      list-style: none;
+    display: flex;
+    padding-top: 1rem;
+    list-style: none;
   }
 
-  header li {
-      padding-left: 3.5rem;
+header li {
+    padding-left: 3.5rem;
   }
 
-  header a {
+header a {
     line-height: 1.6;
     font-size: 1rem;
     color: #e50460;
     text-decoration: none;
   }
 
-  nav a:hover, nav a:active {
-      color: #85ccd0;
-      text-align: right;
+nav a:hover, nav a:active {
+    color: #85ccd0;
+    text-align: right;
   }
+
+  /* Footer */
+footer {
+    width: 100%;
+    background-color: #85ccd0;
+    font-size: 0.8rem;
+    height: 10vh;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
