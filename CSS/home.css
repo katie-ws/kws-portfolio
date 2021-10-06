@@ -156,7 +156,7 @@ button {
 
 .skills h3 {
     color: #e50460;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .skills img {
@@ -166,4 +166,5 @@ button {
 .currentSkills, .upcomingSkills { 
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
