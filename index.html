@@ -1,117 +1,128 @@
 <html lan="en">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Spartan:wght@700&display=swap" rel="stylesheet">
-    <title>KWS: Katie's Web Services</title>
-    <link href="CSS/globalstyles.css" rel="stylesheet">
-    <link href="CSS/home.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</html>
-<body>
-    <!-- Top menu bar -->
-    <header>
-        <div class="navigation">
-            <a href='#' class="logo"><img id="logo-size" src="Resources/KWS Logo.png" alt="KWS Logo"></a>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Spartan:wght@700&display=swap" rel="stylesheet">
+        <title>KWS: Katie's Web Services</title>
+        <link href="CSS/globalstyles.css" rel="stylesheet">
+        <link href="CSS/home.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Top menu bar -->
+        <header>
+            <div class="navigation">
+                <a href='#' class="logo"><img id="logo-size" src="Resources/KWS Logo.png" alt="KWS Logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <div class="grid">
+            <main>
+                <!-- Intro banner -->
+                <section class="banner">
+                    <div class="title">
+                        <h1>K W S</h1>
+                        <h2>The Home of Katie's Web Services<br /> by Katie Woodburn-Simmonds</h2>
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/KWS-Hero-Banner.png" alt="">
+                    </div>                
+                </section>
+                
+                <!-- About section -->
+                <section class="about" id="about">
+                    <div class="aboutHeading">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="kwsImage"><img src="./Resources/Katie-WS-Image.jpg" alt="Katie Woodburn-Simmonds"></div>
+                    <div class="content">
+                        <p>Hi! I'm Katie, a freelance Full Stack Engineer from Scotland.<br /> When I'm not in Scotland, you can find me packing up my laptop
+                            and working from from anywhere with a comfy seat and a wifi connection. 
+                            Having spent the last few months working on front end web development, I am currently learning about the back end.<br /> The end goal
+                            is to build a food related web app for my company, and work with clients to bring their dreams to an online reality.
+                        </p>
+                    </div>
+                </section>
+    
+                <!-- Projects section -->
+                <section class="projects" id="projects">
+                    <div class="projectsHeading">
+                        <h2>My Latest Projects</h2>
+                    </div>
+                    <div class="portfolio">
+                        <figure class="caseStudy" id="hceImg">
+                            <img src="Resources/HCE-screenshot.png" alt="Home Coffee Expert Homepage">  
+                            <!-- <figcaption>
+                                <h3>Home Coffee Expert</h3>
+                                <p>A resource for coffee lovers</p>
+                                <button><a href="https://homecoffeeexpert.com/">Visit Site</a></button>
+                            </figcaption>                         -->
+                        </figure>
+                        <div class="modal" id="firstModal">
+                            <div class="modalContent" id="modal01">
+                                <span class="close">&times;</span>
+                                <h3>Home Coffee Expert</h3>
+                                <p>A resource for coffee lovers: Responsive webpage designed using HTML5 and CSS. Full website re-build coming soon.</p>
+                                <button><a href="https://homecoffeeexpert.com/">Visit Site</a></button>
+                            </div>
+                        </div>
+                        <figure class="caseStudy" id="kfpImg">
+                            <img src="Resources/KFP-screenshot.png" alt="Kirkby Fruit Project Homepage">
+                            <figcaption>
+                                <h3>Kirkby Fruit Project</h3>
+                                <p>Using fruit to support the local community</p>
+                                <button><a href="https://katie-ws.github.io/club/">Visit Site</a></button>
+                            </figcaption> 
+                        </figure>
+                        <figure class="caseStudy" id="fotoImg">
+                            <img src="Resources/Fotomatic-screenshot.png" alt="Fotomatic Homepage">
+                            <figcaption>
+                                <h3>Fotomatic</h3>
+                                <p>Newly released instant format camera</p>
+                                <button><a href="https://katie-ws.github.io/fotomatic/">Visit Site</a></button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+    
+                <!-- Skills section -->
+                <section class="skills" id="skills">
+                    <div class="skillsHeading">
+                        <h2>My Skills</h2>
+                    </div>
+                    <h3>Current Skills</h3>
+                    <div class="currentSkills">
+                        <img src="Resources/Current/HTML5_Logo_128.png" alt="HTML5 Logo">
+                        <img src="Resources/Current/CSS3-Logo.png" alt="CS3 Logo">
+                        <img src="Resources/Current/Javascript_Logo.png" alt="Javascript Logo">
+                        <img src="Resources/Current/Git-Icon-Black.png" alt="Git Logo">
+                        <img src="Resources/Current/GitHub-Mark-120px-plus.png" alt="GitHub Logo">
+                        <img src="Resources/Current/208px-Markdown-mark.svg.png" alt="Markdown Logo">
+                        <img src="Resources/Current/W3W-Logo.png" alt="W3W Accessibility Logo">
+                    </div>
+                    <h3>Coming Soon</h3>
+                    <div class="upcomingSkills">
+                        <img src="Resources/Upcoming/React-Logo.jpg.png" alt="React Logo">
+                        <img src="Resources/Upcoming/Redux-Logo.png" alt="Redux Logo">
+                        <img src="Resources/Upcoming/Node-JS-Logo.png" alt="Node.js Logo">
+                        <img src="Resources/Upcoming/Express-Js-Logo.png" alt="Express.js Logo">
+                        <img src="Resources/Upcoming/PostgreSQL-Logo.png" alt="PostgreSQL Logo">
+                    </div>
+                </section>                    
+            </main>
+    
+            <footer>
+                <p>©KWS: Katie's Web Services</p>
+            </footer>
         </div>
-    </header>
-
-    <div class="grid">
-        <main>
-            <!-- Intro banner -->
-            <section class="banner">
-                <div class="title">
-                    <h1>K W S</h1>
-                    <h2>The Home of Katie's Web Services<br /> by Katie Woodburn-Simmonds</h2>
-                </div>
-                <div class="image">
-                    <img src="./Resources/KWS-Hero-Banner.png" alt="">
-                </div>                
-            </section>
-            
-            <!-- About section -->
-            <section class="about" id="about">
-                <div class="aboutHeading">
-                    <h2>About Me</h2>
-                </div>
-                <div class="kwsImage"><img src="./Resources/Katie-WS-Image.jpg" alt="Katie Woodburn-Simmonds"></div>
-                <div class="content">
-                    <p>Hi! I'm Katie, a freelance Full Stack Engineer from Scotland.<br /> When I'm not in Scotland, you can find me packing up my laptop
-                        and working from from anywhere with a comfy seat and a wifi connection. 
-                        Having spent the last few months working on front end web development, I am currently learning about the back end.<br /> The end goal
-                        is to build a food related web app for my company, and work with clients to bring their dreams to an online reality.
-                    </p>
-                </div>
-            </section>
-
-            <!-- Projects section -->
-            <section class="projects" id="projects">
-                <div class="projectsHeading">
-                    <h2>My Latest Projects</h2>
-                </div>
-                <div class="portfolio">
-                    <figure>
-                        <img src="Resources/HCE-screenshot.png" alt="Home Coffee Expert Homepage">  
-                        <figcaption>
-                            <h3>Home Coffee Expert</h3>
-                            <p>A resource for coffee lovers</p>
-                            <button><a href="https://homecoffeeexpert.com/">Visit Site</a></button>
-                        </figcaption>                        
-                    </figure>
-                    <figure>
-                        <img src="Resources/KFP-screenshot.png" alt="Kirkby Fruit Project Homepage">
-                        <figcaption>
-                            <h3>Kirkby Fruit Project</h3>
-                            <p>Using fruit to support the local community</p>
-                            <button><a href="https://katie-ws.github.io/club/">Visit Site</a></button>
-                        </figcaption> 
-                    </figure>
-                    <figure>
-                        <img src="Resources/Fotomatic-screenshot.png" alt="Fotomatic Homepage">
-                        <figcaption>
-                            <h3>Fotomatic</h3>
-                            <p>Newly released instant format camera</p>
-                            <button><a href="https://katie-ws.github.io/fotomatic/">Visit Site</a></button>
-                        </figcaption>
-                    </figure>
-                </div>
-            </section>
-
-            <!-- Skills section -->
-            <section class="skills" id="skills">
-                <div class="skillsHeading">
-                    <h2>My Skills</h2>
-                </div>
-                <h3>Current Skills</h3>
-                <div class="currentSkills">
-                    <img src="Resources/Current/HTML5_Logo_128.png" alt="HTML5 Logo">
-                    <img src="Resources/Current/CSS3-Logo.png" alt="CS3 Logo">
-                    <img src="Resources/Current/Javascript_Logo.png" alt="Javascript Logo">
-                    <img src="Resources/Current/Git-Icon-Black.png" alt="Git Logo">
-                    <img src="Resources/Current/GitHub-Mark-120px-plus.png" alt="GitHub Logo">
-                    <img src="Resources/Current/208px-Markdown-mark.svg.png" alt="Markdown Logo">
-                    <img src="Resources/Current/W3W-Logo.png" alt="W3W Accessibility Logo">
-                </div>
-                <h3>Coming Soon</h3>
-                <div class="upcomingSkills">
-                    <img src="Resources/Upcoming/React-Logo.jpg.png" alt="React Logo">
-                    <img src="Resources/Upcoming/Redux-Logo.png" alt="Redux Logo">
-                    <img src="Resources/Upcoming/Node-JS-Logo.png" alt="Node.js Logo">
-                    <img src="Resources/Upcoming/Express-Js-Logo.png" alt="Express.js Logo">
-                    <img src="Resources/Upcoming/PostgreSQL-Logo.png" alt="PostgreSQL Logo">
-                </div>
-            </section>                    
-        </main>
-
-        <footer>
-            <p>©KWS: Katie's Web Services</p>
-        </footer>
-    </div>
-
-</body>
+    </body>
+    <script type="text/javascript" src="./interactive.js"></script>
+</html>
