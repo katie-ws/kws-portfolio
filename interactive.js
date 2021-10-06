@@ -2,7 +2,7 @@ let modal = document.getElementById("firstModal");
 let fig = document.getElementById("hceImg");
 let span = document.getElementsByClassName("close")[0];
 
-fig.onclick = function() {
+fig.onmousemove = function() {
     modal.style.display = "block";
 }
 
