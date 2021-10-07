@@ -170,7 +170,6 @@
 
 .openModal {
     margin: auto;
-    display: block;
     width: 80%;
     max-width: 700px;
     animation-name: zoom;
@@ -190,11 +189,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #ccc;
-    display: block;
     width: 60%;
     max-width: 450px;
     text-align: center;
     padding: 1rem;
+    align-items: center;
+    justify-items: center;
 }
 
 .close {
