@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="en">
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Spartan:wght@700&display=swap" rel="stylesheet">
@@ -58,36 +60,63 @@
                         <h2>My Latest Projects</h2>
                     </div>
                     <div class="portfolio">
-                        <figure class="caseStudy" id="hceImg">
-                            <img src="Resources/HCE-screenshot.png" alt="Home Coffee Expert Homepage"> 
+
+                        <!-- Case Studies -->
+                        <figure class="caseStudy" id="hceCase">
+                            <img id="hceImg" src="Resources/HCE-screenshot.png" alt="Home Coffee Expert Homepage">
+                            <span class="plus">&oplus;</span>
                         </figure>
+
+                        <figure class="caseStudy" id="kfpCase">
+                            <img id="kfpImg" src="Resources/KFP-screenshot.png" alt="Kirkby Fruit Project Homepage">
+                            <span class="plus">&oplus;</span>
+                        </figure>
+
+                        <figure class="caseStudy" id="fotoCase" data-target="testModal" data-toggle="modal">
+                            <img id="fotoImg" src="Resources/Fotomatic-screenshot.png" alt="Fotomatic Homepage">
+                            <span class="plus">&oplus;</span>
+                        </figure>
+
+                        <!-- Modal Boxes -->
+                                 <!-- HCE -->
                         <div class="modal" id="firstModal">
                             <div class="modalContent" id="modal01">
-                                <img src="Resources/HCE-screenshot.png" alt="Home Coffee Expert Homepage"> 
-                                <span class="close">&times;</span>
-                                <h3>Home Coffee Expert</h3>
-                                <p>A resource for coffee lovers: Responsive webpage designed using HTML5 and CSS. Full website re-build coming soon.</p>
-                                <button><a href="https://homecoffeeexpert.com/">Visit Site</a></button>
+                                <div class="openModal">
+                                    <span class="close">&times;</span>
+                                    <img src="Resources/HCE-screenshot.png"> 
+                                    <div class="overlay" id="hceOverlay">
+                                        <h3>Home Coffee Expert</h3>
+                                        <p>A resource for coffee lovers: Responsive webpage designed using HTML5 and CSS. Full website re-build coming soon.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <figure class="caseStudy" id="kfpImg">
-                            <img src="Resources/KFP-screenshot.png" alt="Kirkby Fruit Project Homepage">
-                            <figcaption>
-                                <h3>Kirkby Fruit Project</h3>
-                                <p>Using fruit to support the local community</p>
-                                <button><a href="https://katie-ws.github.io/club/">Visit Site</a></button>
-                            </figcaption> 
-                        </figure>
-                        <figure class="caseStudy" id="fotoImg">
-                            <img src="Resources/Fotomatic-screenshot.png" alt="Fotomatic Homepage">
-                            <figcaption>
-                                <h3>Fotomatic</h3>
-                                <p>Newly released instant format camera</p>
-                                <button><a href="https://katie-ws.github.io/fotomatic/">Visit Site</a></button>
-                            </figcaption>
-                        </figure>
+
+                            <!-- KFP --> 
+                        <div class="modal" id="secondModal">
+                            <div class="openModal">
+                                <span class="close">&times;</span>
+                                <img class="myModal" id="img02">
+                                <div class="overlay" id="kfpOverlay">
+                                    <h3>Kirkby Fruit Project</h3>
+                                    <p>A volunteer group from Yorkshire using fruit to support the local community: Responsive static page design using HTML5 and CSS.</p>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                            <!-- Fotomatic -->
+                        <div class="modal" id="thirdModal">
+                            <div class="openModal">
+                                <span class="close">&times;</span>
+                                <img class="myModal" id="img03">
+                                <div class="overlay" id="fotoOverlay">
+                                    <h3>Fotomatic</h3>
+                                    <p>Codecademy project for Fotomatic - a newly released instant format camera. HTML5 and CSS were used to fix broken code and create a responsive page.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                </section>
     
                 <!-- Skills section -->
                 <section class="skills" id="skills">
@@ -120,5 +149,7 @@
             </footer>
         </div>
     </body>
+
     <script type="text/javascript" src="./interactive.js"></script>
+    
 </html>
